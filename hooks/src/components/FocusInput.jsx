@@ -22,17 +22,11 @@ function FocusInput() {
         <div>
           <button
             className="btn btn-primary me-2"
-            onClick={() => inputRef.current.focus()}
-          >
-            Focus Input
-          </button><br></br>
+            onClick={() => inputRef.current.focus()}> Focus Input </button><br></br>
 
           <button
             className="btn btn-secondary"
-            onClick={() => setText("")}
-          >
-            Clear
-          </button>
+            onClick={() => setText("")} > Clear</button>
         </div>
       </div>
     </div>

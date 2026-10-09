@@ -33,10 +33,9 @@ function UserProfile() {
         <h3>User Profile</h3>
 
         {loading ? (
-          <p>Loading...</p>
-        ) : error ? (
-          <p>Something went wrong</p>
-        ) : (
+          <p>Loading...</p>)
+           : error 
+           ? (<p>Something went wrong</p>) : (
           <div>
             <p>Name: {user.name}</p>
             <p>Email: {user.email}</p>

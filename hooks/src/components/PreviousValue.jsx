@@ -16,24 +16,16 @@ function PreviousValue() {
 
         <p>Current value: {count}</p>
         <p>
-          Previous value: {previousCount.current === null
-            ? "-"
-            : previousCount.current}
+          Previous value: {previousCount.current === null ? "-": previousCount.current}
         </p>
 
         <button
           className="btn btn-success mb-2"
-          onClick={() => setCount(count + 1)}
-        >
-          Increment
-        </button>
+          onClick={() => setCount(count + 1)} > Increment </button>
 
         <button
           className="btn btn-danger"
-          onClick={() => setCount(count - 1)}
-        >
-          Decrement
-        </button>
+          onClick={() => setCount(count - 1)} > Decrement</button>
       </div>
     </div>
   );

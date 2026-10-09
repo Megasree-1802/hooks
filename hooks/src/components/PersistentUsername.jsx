@@ -20,8 +20,7 @@ function Username() {
           type="text"
           className="form-control"
           value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
+          onChange={(e) => setName(e.target.value)}/>
 
         <p className="mt-3">Your name is: {name}</p>
       </div>
